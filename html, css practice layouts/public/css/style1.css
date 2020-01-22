@@ -1,0 +1,43 @@
+/*By Lesson 1 Layouts css*/
+*{margin: 0; padding: 0;}
+
+#wrapper {
+ border: solid black; 
+  padding: 5px;
+}
+
+#header{
+  height:100px; background-color: red; padding: 10px;
+}
+
+#logo{
+  height: 100px; width: 150px; background-color: yellow;
+}
+
+#navbar{height: 100px; background-color: grey; margin-top: 10px}
+
+#panel-container{margin-top: 10px}
+
+
+#panel-container::after{content: " " ; display: block; clear: both; }
+
+#left-section{height: 600px; background-color: blue; width: 25%; float: left}
+#right-section{height: 600px; background-color: maroon; width: 74%; float: right}
+
+#grid-container {margin: 70px auto; width: 80%}
+#grid-container::after{content: " " ; display: block; clear: both; }
+
+.circle{
+  
+  width: 250px; height:250px; background-color: yellow; border-radius: 200px; float: left; margin-left:90px
+    
+}
+
+#grid-rectangle::after{content: " " ; display: block; clear: both; }
+#grid-rectangle{margin: 70px auto; width:80%}
+.rectangle{width: 250px; height: 100px; background-color: brown; float: left; margin: 10px; margin-left: 90px}
+#footer{height: 100px; background-color: mediumpurple; margin-top:10px}
+
+
+
+

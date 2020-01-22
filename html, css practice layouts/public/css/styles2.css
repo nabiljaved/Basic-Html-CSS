@@ -1,0 +1,16 @@
+/*By Lesson 2 Layouts css*/
+*{padding: 0; margin: 0;}
+#wrapper{border: #4D4D4D;}
+#header{padding: 5px;}
+.row::after,
+#content::after,
+#header::after {content: " "; display: block; clear: both;}
+#logo{height: 80px; width: 24%; background-color: #A32900; float: left}
+#navbar{height: 80px; width: 75%; background-color: #AD8533; float: right}
+#content{margin-top: 10px;}
+#left-panel{width: 24%; height: 610px; background-color: #297A52; float :left}
+#grid-wrapper{width: 75%; float: right;}
+#big-box{height: 300px; width: 310px; background-color: green; float:left; }
+.small-boxes{width: 150px; height: 145px; background-color: orange; float: right; margin-bottom: 10px;}
+.top-box{margin-right: 18px}
+.bottom-box{margin-right: 18px}

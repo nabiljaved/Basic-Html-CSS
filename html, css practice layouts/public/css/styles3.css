@@ -1,0 +1,340 @@
+/*By Lesson 3 Layouts css*/
+
+@media(min-width:1200px)
+{
+  #wrapper{padding: 15px}
+  
+  #header
+  {
+    background-color:black; 
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     border-radius: 15px;
+  }
+  
+  #content{margin-top: 15px;}
+  #content::after 
+  {
+    content: " "; 
+    display: block; 
+    clear: both
+  }
+  
+  #left-panel
+  {
+    
+    width: 24%;
+    float: left;
+  }
+  
+  #navbar
+  {
+    background-color: #E6B800;
+    height: 400px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+  
+  #news{
+    background-color: #B8B894;
+    height: 200px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+    margin-top: 15px;
+    
+  }
+  
+  #right-section{
+    background-color: #009999;
+    width: 75%;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    height: 615px;
+    float: right
+  }
+  
+  #footer{
+    height: 100px;
+    background-color: #003333;
+    margin-top: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+  
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+  
+  
+  #wrapper{padding: 15px}
+  
+  #header
+  {
+    background-color:black; 
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     border-radius: 15px;
+  }
+  
+  #content{margin-top: 15px;}
+  #content::after 
+  {
+    content: " "; 
+    display: block; 
+    clear: both
+  }
+  
+  #left-panel
+  {
+    
+    width: 24%;
+    float: left;
+  }
+  
+  #navbar
+  {
+    background-color: #E6B800;
+    height: 400px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+  
+  #news{
+    background-color: #B8B894;
+    height: 200px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+    margin-top: 15px;
+    
+  }
+  
+  #right-section{
+    background-color: #009999;
+    width: 75%;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    height: 615px;
+    float: right
+  }
+  
+  #footer{
+    height: 100px;
+    background-color: #003333;
+    margin-top: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+  
+}
+@media(min-width:768px) and (max-width:991px)
+{
+  
+  #wrapper{padding: 15px}
+  
+  #header
+  {
+    background-color:black; 
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     border-radius: 15px;
+  }
+  
+  #content{display : table; width: 100%; margin-top: 15px;}
+  #left-panel::after 
+  {
+    content: " "; 
+    display: block; 
+    clear: both
+  }
+  
+  #left-panel
+  {
+    
+    display: table-footer-group;
+  }
+  
+  #navbar
+  {
+     background-color: #E6B800;
+     height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    float: right;
+     border-radius: 15px;
+    width:75%
+  }
+  
+  #news{
+    background-color: #B8B894;
+    height: 100px;
+    width: 24%;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+    float: left
+  } 
+  
+  #right-section{
+    background-color: #009999;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    height: 615px;
+    margin-bottom: 15px;
+  }
+  
+  #footer{
+    height: 100px;
+    background-color: #003333;
+    margin-top: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+}
+@media(min-width:767px) and (max-width:991px)
+{
+  
+  #wrapper{padding: 15px}
+  
+  #header
+  {
+    background-color:black; 
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     border-radius: 15px;
+  }
+  
+  #content{display : table; width: 100%; margin-top: 15px;}
+  #left-panel::after 
+  {
+    content: " "; 
+    display: block; 
+    clear: both
+  }
+  
+  #left-panel
+  {
+    
+    display: table-footer-group;
+  }
+  
+  #navbar
+  {
+     background-color: #E6B800;
+     height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    float: right;
+     border-radius: 15px;
+    width:75%
+  }
+  
+  #news{
+    background-color: #B8B894;
+    height: 100px;
+    width: 24%;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+    
+    float: left
+  } 
+  
+  #right-section{
+    background-color: #009999;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    height: 615px;
+    margin-bottom: 15px;
+  }
+  
+  #footer{
+    height: 100px;
+    background-color: #003333;
+    margin-top: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+  
+  
+}
+@media(max-width:767px)
+{
+   #wrapper{padding: 15px}
+  
+  #header
+  {
+    background-color:black; 
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     border-radius: 15px;
+  }
+  
+  #content{display : table; width: 100%;  margin-top: 15px;}
+  
+  
+  #left-panel
+  {
+    
+    display: table-footer-group;
+  }
+  
+  #navbar
+  {
+     background-color: #E6B800;
+     height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+     
+  }
+  
+  #news{
+    background-color: #B8B894;
+    height: 100px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+    margin-top: 15px
+  } 
+  
+  #right-section{
+    background-color: #009999;
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    height: 615px;
+    margin-bottom: 15px;
+  }
+  
+  #footer{
+    height: 100px;
+    background-color: #003333;
+    margin-top: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+     border-radius: 15px;
+  }
+}
+
